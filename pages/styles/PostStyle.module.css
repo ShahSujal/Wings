@@ -1,0 +1,9 @@
+.PostMap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: rgb(7, 0, 16);
+}

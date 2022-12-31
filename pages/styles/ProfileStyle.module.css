@@ -1,0 +1,139 @@
+.profile{
+    width: 100%;
+    min-height: 90vh;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.section1{
+    width: 80%;
+    min-height: 40vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.subSectionImg{
+    width: 45%;
+    min-height: 260px;
+    /* background: rgb(17, 16, 16); */
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 12px;
+    color: white;
+}
+.subSection{
+    width: 45%;
+    min-height: 270px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 12px;
+    color: white;
+    border-radius: 12px;
+}
+.image{
+    border-radius: 50%;
+}
+.row1{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+.row2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.row3{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items:initial;
+    justify-content:space-evenly;
+    flex-direction: column;
+    padding: 22px;
+    padding-left: 45px;
+}
+.row3 h2{
+    font-weight: 400;
+    font-size: 19px;
+    margin: 15px 0px;
+}
+.row1 button{
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
+    outline: none;
+    border: 0px;
+    /* background: black; */
+    color: whitesmoke;
+    transition: 0.2s;
+    background: linear-gradient(30deg,rgb(1, 40, 62),rgb(27, 28, 28),rgb(28, 1, 42));
+    opacity: 0.6;
+}
+.row1 button:hover{
+    background: linear-gradient(30deg,rgb(9, 45, 0),rgb(38, 2, 68),rgb(1, 15, 49));
+    color: rgb(255, 249, 249);
+    cursor: pointer;
+    letter-spacing: 1px;
+    opacity: 1;
+}
+.section2{
+    width: 80%;
+    min-height: 40vh;
+    background-color: rgb(17, 16, 16);
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.titlePost{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: whitesmoke;
+}
+.titlePost h2{
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.titlePost h2:hover{
+    color: rgb(228, 13, 77);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.Photos{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.PhotoRadius{
+    border-radius: 9px;
+    margin: 8px 9px;
+}
+.iconGap{
+    margin-left: 8px;
+}

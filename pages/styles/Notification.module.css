@@ -1,0 +1,57 @@
+.Notify{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: rgb(40, 39, 39);
+}
+.section2{
+    width: 80%;
+    min-height: 70vh;
+    background-color: rgb(17, 16, 16);
+    margin-top: 12px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.titlePost{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: whitesmoke;
+}
+.titlePost h2{
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.titlePost h2:hover{
+    color: rgb(237, 26, 82);
+    letter-spacing: 1px;
+    
+}
+.iconGap{
+    margin-left: 8px;
+}
+.Photos{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+.PhotoRadius{
+    border-radius: 9px;
+    margin: 8px 9px;
+}

@@ -1,0 +1,69 @@
+.notify{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 2px solid rgba(255, 255, 255, 0.507);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.507);
+    border-radius: 5%;
+    margin: 5px;
+    position: relative;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.notify:hover{
+    opacity: 1;
+    margin-bottom: 7px;
+}
+.details{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    margin: 0px 8px;
+    justify-content: center; 
+    flex-direction: column;
+}
+.details h2{
+    font-size: 16px;
+}
+.imageSpace{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: white; */
+}
+.commentDetails{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    /* background: white; */
+    position: relative;
+}
+.co{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 8px;
+}
+.time{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+.PhotoRadius{
+    border-radius: 9px;
+    margin: 8px 9px;
+}
+.iconGap{
+    margin-left: 8px;
+}
